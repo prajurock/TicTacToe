@@ -1,9 +1,6 @@
 import itertools
 from colorama import Fore,Back,Style,init
 init()
- 
-
-
 def win(current_game):
 
     def all_same(l):
@@ -11,9 +8,6 @@ def win(current_game):
             return True
         else:
             return False
-
-
-
 
     #Horizontal1
     for row in game:
@@ -103,16 +97,3 @@ while play:
             else:
                 print("Not a valid answer,so... c u late aligator")
                 play=False
-
-
-
-
-    	
-
-
-
-
-
-#game=game_board(game,just_display=True)
- 
-#game=game_board(game_board,player=1,row=3,column=1)
